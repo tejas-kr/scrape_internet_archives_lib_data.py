@@ -39,6 +39,6 @@ books_df = pd.DataFrame(l_books, columns=["name", "author"])
 print(books_df)
 
 # I am having some problems saving the scraped data as csv. As I'm unable to find a good seperator
-# books_df.to_csv('internet_archive_lib_book_data.csv', encoding='utf-8')
+books_df.to_csv('internet_archive_lib_book_data.csv', encoding='utf-8')
 
 
